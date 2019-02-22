@@ -13,4 +13,5 @@ attending a hackathon named robothon at college of engineering Chengannur
 https://robotzero.one/arduino-ai-thinker-ra-02/
 https://github.com/sandeepmistry/arduino-LoRa#semtech-sx1276777879-wiring
 https://dzone.com/articles/make-a-weather-station-with-a-raspberry-pi-2
+https://www.google.com/search?rlz=1C5CHFA_enIN822IN822&ei=LAFwXObdKtWFyAOdhaaIBQ&q=interfacing+dht11+with+raspberry+pi&oq=interfacing+dht11+with+raspberry+pi&gs_l=psy-ab.3..0j0i22i30.1629.6863..7149...2.0..0.223.3071.0j18j3......0....1..gws-wiz.......0i71j35i39j0i20i263j0i13j0i8i13i30.NqoNC6OTHKE#kpvalbx=1
  

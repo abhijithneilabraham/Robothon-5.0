@@ -8,3 +8,5 @@ attending a hackathon named robothon at college of engineering Chengannur
  https://github.com/jieter/python-lora
  <h2>   (iii)LoRa using python script.</h2>
  https://docs.pycom.io/firmwareapi/pycom/network/lora.html
+ <h2>https://www.rs-online.com/designspark/building-a-raspberry-pi-powered-lorawan-gateway</h2>
+ 

@@ -12,4 +12,5 @@ attending a hackathon named robothon at college of engineering Chengannur
 <h2>using lora with arduino</h2>
 https://robotzero.one/arduino-ai-thinker-ra-02/
 https://github.com/sandeepmistry/arduino-LoRa#semtech-sx1276777879-wiring
+https://dzone.com/articles/make-a-weather-station-with-a-raspberry-pi-2
  

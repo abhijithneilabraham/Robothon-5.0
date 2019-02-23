@@ -63,7 +63,7 @@ if __name__ == "__main__":
     model_path = '/path/to/faster_rcnn_inception_v2_coco_2017_11_08/frozen_inference_graph.pb'
     odapi = DetectorAPI(path_to_ckpt=model_path)
     threshold = 0.7
-    cap = cv2.VideoCapture('/path/to/input/video')
+    cap = cv2.VideoCapture(0)
 
     while True:
         r, img = cap.read()

@@ -17,3 +17,10 @@ Client secret:  	VEeR5BKQpi2zKVFY_Cl6prtd
 
 
 this is for google drive verification
+
+
+
+The above stuff should work without asking for authentication every time,but if in case it is not automated,
+
+
+https://stackoverflow.com/questions/24419188/automating-pydrive-verification-process

@@ -1,0 +1,32 @@
+import cv2
+import csv
+import numpy as np
+Coor=[]
+img = cv2.imread("Map22.jpg")
+frame = img[100:900,100:900]
+frame1 = cv2.resize(frame,(1000,1000))
+lower_range = np.array([0,0,0])
+upper_range =np.array([255,115,255])
+mask = cv2.inRange(frame1, lower_range, upper_range)
+
+with open('GPSValues.csv', 'r') as csvfile:
+    fieldnames = ['Latitude', 'Longotude']
+ 
+        
+          
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    
+    writer = csv.writer(csvfile)
+    X=9.3172012081
+    Y=76.6780318411
+    i=14.6478920020
+    for i in range(0,100):
+        Coor.append(X+(0.0000000001*((i*23)%7)))
+        Coor.append(Y+(0.0000000001*((i*29)%7)))
+
+        
+        
+
+cv2.circle(img,(770+int(X),165+int(Y)), 15, (0,255,0), -1)
+cv2.imshow("Map",img)
+cv2.imwrite("Test.jpg",mask)
